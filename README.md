@@ -3,7 +3,7 @@ CNN for Facial Keypoints Detection Project [Udacity Computer Vision Nanodegree]
 
 ## Project Overview
 ### Project Description
-Build a convolutional neural network(CNN) with Keras to classify dog breeds and then turn the code into a web app using Flask. Given an image of a dog, the model will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed and overlay filters with dog's ears, nose and tongue.
+Implement computer vision techniques and deep learning architectures to build a facial keypoint detection system. This sysytem can take in any image with faces, and predicts the location of 68 distinguishing keypoints around the eyes, nose, and mouth on a face.
 
 ### Project Procedure
 - Import datasets
@@ -22,10 +22,6 @@ Build a convolutional neural network(CNN) with Keras to classify dog breeds and 
 ### Project Results
 The model can successfully detect dogs and faces and make predictions on the given image.
 If detect a dog, the model will identify an estimate of the dog's breed. If detect any face, the code will identify the resembling dog breed for each face and overlay filters with dog's ears, nose and tongue on it.
-
-<img src="dog_prediction.png">
-<img src="web_app_snapshot.png">
-
 
 ## Getting Started
 ### Installing
@@ -73,7 +69,7 @@ pip install -r requirements.txt
 1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
 ```shell
 cd
-cd Facial_Keypoints_Detection
+cd Facial_Keypoint_Detection
 ```
 
 2. Open the directory of notebooks, using the below command. You'll see all of the project files appear in your local environment; open the first notebook and follow the instructions.
@@ -84,4 +80,4 @@ jupyter notebook
 3. Once you open any of the project notebooks, make sure you are in the correct `cv-nd` environment by clicking `Kernel > Change Kernel > cv-nd`.
 
 ## Data
-All of the data you'll need to train a neural network is in the the directory `data`.
+All of the data you'll need to train a neural network is in the the subdirectory `data`.
