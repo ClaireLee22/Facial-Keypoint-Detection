@@ -73,7 +73,7 @@ pip install -r requirements.txt
 1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
 ```shell
 cd
-cd P1_Facial_Keypoints
+cd Facial_Keypoints_Detection
 ```
 
 2. Open the directory of notebooks, using the below command. You'll see all of the project files appear in your local environment; open the first notebook and follow the instructions.
