@@ -6,22 +6,10 @@ CNN for Facial Keypoints Detection Project [Udacity Computer Vision Nanodegree]
 Implement computer vision techniques and deep learning architectures to build a facial keypoint detection system. This sysytem can take in any image with faces, and predicts the location of 68 distinguishing keypoints around the eyes, nose, and mouth on a face.
 
 ### Project Procedure
-- Import datasets
-  - Dog dataset
-  - Human dataset
-- Preprocess the data with shape (batch, rows, columns, channels)
-- Write detectors
-   - face detector
-   - dog detector
-- Create a CNN
-- Compile the model
-  - train, test
-- Write a algorithm for the dog breeds classifier
-- Turn the code into a web app using Flask
+
 
 ### Project Results
-The model can successfully detect dogs and faces and make predictions on the given image.
-If detect a dog, the model will identify an estimate of the dog's breed. If detect any face, the code will identify the resembling dog breed for each face and overlay filters with dog's ears, nose and tongue on it.
+
 
 ## Getting Started
 ### Installing
