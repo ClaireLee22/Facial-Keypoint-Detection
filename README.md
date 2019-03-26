@@ -68,7 +68,7 @@ cd P1_Facial_Keypoints
 ```
 pip install -r requirements.txt
 ```
-### Notebooks
+#### Notebooks
 
 1. Navigate back to the repo. (Also, your source environment should still be activated at this point.)
 ```shell
